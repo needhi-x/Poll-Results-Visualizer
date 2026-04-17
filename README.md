@@ -143,11 +143,10 @@ Visualizes the count of responses for each product, making it easy to compare ov
 
 Represents the percentage share of each response, providing a quick overview of distribution.
 
-### 🥧 Pie Chart
-![Pie](outputs/pie_chart.png)
+### 📊 Region-wise Chart
+![Region Chart](outputs/region_chart.png)
 
-Represents the percentage share of each response, providing a quick overview of distribution.
-
+Displays a stacked comparison of product preferences across regions, enabling deeper analysis of regional behavior.
 ---
 
 ## 🔍 Insights
