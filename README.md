@@ -108,30 +108,44 @@ python main.py
 
 ## 📊 Outputs
 
-### Dataset Preview
+### 📊 Dataset Preview
 ![Dataset](images/dataset_preview.png)
 
-### Summary Table
+Displays the first few rows of the generated poll dataset, including respondent ID, region, age group, and selected response.
+
+### 📊 Summary Table
 ![Summary](images/summary_table.png)
 
-### Region-wise Analysis
+Shows the total count and percentage distribution of each response, helping identify the most preferred option.
+
+
+### 🌍 Region-wise Analysis
 ![Region](images/region_analysis.png)
+
+Provides a comparative view of response distribution across different regions, highlighting regional preferences and trends.
 
 ### Final Insight
 ![Insight](images/final_insight.png)
+Displays the most preferred product based on overall responses, representing the final outcome of the analysis.
 
 ---
 
 ## 📈 Visualizations
 
-### Bar Chart
+### 📊 Bar Chart
 ![Bar](outputs/bar_chart.png)
 
-### Pie Chart
+Visualizes the count of responses for each product, making it easy to compare overall popularity.
+
+### 🥧 Pie Chart
 ![Pie](outputs/pie_chart.png)
 
-### Region Chart
-![Region Chart](outputs/region_chart.png)
+Represents the percentage share of each response, providing a quick overview of distribution.
+
+### 🥧 Pie Chart
+![Pie](outputs/pie_chart.png)
+
+Represents the percentage share of each response, providing a quick overview of distribution.
 
 ---
 
