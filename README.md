@@ -1,4 +1,5 @@
 # 📊 Poll Results Visualizer
+
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Status](https://img.shields.io/badge/Project-Complete-green)
 
@@ -127,6 +128,7 @@ Provides a comparative view of response distribution across different regions, h
 
 ### Final Insight
 ![Insight](images/final_insight.png)
+
 Displays the most preferred product based on overall responses, representing the final outcome of the analysis.
 
 ---
