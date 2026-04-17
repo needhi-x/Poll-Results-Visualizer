@@ -158,14 +158,11 @@ Display a stacked comparison of product preferences across regions, enabling dee
 
 Displays the main interface including dataset preview and filter options.
 
----
-
 ### 📈 Charts Visualization
 ![Charts](images/charts.png)
 
 Shows bar and pie charts representing response distribution.
 
----
 
 ### 🔍 Filters Applied
 ![Filters](images/filters.png)
