@@ -1,10 +1,12 @@
 ## 📊 Poll Results Visualizer
-## 🚀 Overview
-### The Poll Results Visualizer is a data analytics project that processes poll/survey data and transforms it into meaningful insights using Python.
-### It simulates real-world scenarios where organizations analyze survey responses to understand user preferences, trends, and patterns.
+## 🚀 Overview 
+The Poll Results Visualizer is a data analytics project that processes poll/survey data and transforms it into meaningful insights using Python.
+
+
+It simulates real-world scenarios where organizations analyze survey responses to understand user preferences, trends, and patterns.
 
 ## ❗ Problem Statement
-### Raw poll or survey data is often difficult to interpret. Without proper analysis, it becomes challenging to extract useful insights for decision-making.
+Raw poll or survey data is often difficult to interpret. Without proper analysis, it becomes challenging to extract useful insights for decision-making.
 
 ## 💡 Solution
 ### This project:
@@ -29,10 +31,10 @@
 - NumPy
 - Matplotlib
 - Seaborn
-
 ## 📂 Project Structure
+
+```
 Poll-Results-Visualizer/
-│
 ├── data/
 │   └── poll_data.csv
 │
@@ -54,24 +56,34 @@ Poll-Results-Visualizer/
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## ⚙️ Installation & Setup
 1️⃣ Clone Repository
+
+
 git clone https://github.com/needhi-x/Poll-Results-Visualizer.git
 cd Poll-Results-Visualizer
 
 2️⃣ Create Virtual Environment
+
+
 python -m venv venv
 
 3️⃣ Activate Environment
 - Windows:
+
+
  venv\Scripts\activate
 
 - Mac/Linux:
+
+
  source venv/bin/activate
 
 4️⃣ Install Dependencies
+
+
  pip install -r requirements.txt
 
 
@@ -150,11 +162,21 @@ Shows regional comparison
 - Academic feedback analysis
 
 ## 🚀 Future Enhancements
-### 🔹 Interactive dashboard using Streamlit
-### 🔹 Integration with Google Forms data
-### 🔹 Real-time data updates
-### 🔹 Sentiment analysis on text responses
-### 🔹 Power BI dashboard integration
+🔹 Interactive dashboard using Streamlit
+
+
+🔹Integration with Google Forms data
+
+
+🔹 Real-time data updates
+
+
+🔹 Sentiment analysis on text responses
+
+
+🔹 Power BI dashboard integration
+
+
 
 
 ## 👩‍💻 Author
