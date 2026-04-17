@@ -151,6 +151,28 @@ Represents the percentage share of each response, providing a quick overview of 
 Display a stacked comparison of product preferences across regions, enabling deeper analysis of regional behaviour
 
 ---
+## 🌐 Streamlit Dashboard
+
+### 📊 Dashboard Overview
+![Dashboard](images/dashboard.png)
+
+Displays the main interface including dataset preview and filter options.
+
+---
+
+### 📈 Charts Visualization
+![Charts](images/charts.png)
+
+Shows bar and pie charts representing response distribution.
+
+---
+
+### 🔍 Filters Applied
+![Filters](images/filters.png)
+
+Demonstrates how the dashboard updates dynamically based on selected filters.
+
+---
 
 ## 🔍 Insights
 
