@@ -146,7 +146,8 @@ Represents the percentage share of each response, providing a quick overview of 
 ### 📊 Region-wise Chart
 ![Region Chart](outputs/region_chart.png)
 
-Displays a stacked comparison of product preferences across regions, enabling deeper analysis of regional behavior.
+Display a stacked comparison of product preferences across regions, enabling deeper analysis of regional behaviour
+
 ---
 
 ## 🔍 Insights
