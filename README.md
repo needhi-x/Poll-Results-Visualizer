@@ -1,5 +1,6 @@
 # 📊 Poll Results Visualizer
-
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Status](https://img.shields.io/badge/Project-Complete-green)
 ## 🚀 Overview
 
 The Poll Results Visualizer is a data analytics project that transforms raw survey or poll data into meaningful insights using Python.
@@ -51,29 +52,26 @@ This project:
 - Seaborn  
 
 ---
-
 ## 📂 Project Structure
 
-```
 Poll-Results-Visualizer/
 ├── data/
 │   └── poll_data.csv
-│
 ├── outputs/
 │   ├── bar_chart.png
 │   ├── pie_chart.png
 │   └── region_chart.png
-│
 ├── images/
 │   ├── dataset_preview.png
 │   ├── summary_table.png
 │   ├── region_analysis.png
 │   └── final_insight.png
-│
 ├── main.py
 ├── requirements.txt
 └── README.md
-```
+
+
+
 
 ---
 
@@ -169,4 +167,4 @@ Represents the percentage share of each response, providing a quick overview of 
 ## 👩‍💻 Author
 
 Nidhi Apotikar  
-Aspiring Data Analyst
+
