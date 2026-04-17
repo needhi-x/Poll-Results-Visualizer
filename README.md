@@ -1,39 +1,60 @@
-📊 Poll Results Visualizer
-🚀 Overview
+# 📊 Poll Results Visualizer
+
+## 🚀 Overview
+
 The Poll Results Visualizer is a data analytics project that transforms raw survey or poll data into meaningful insights using Python.
+
 It helps analyze responses, identify trends, and visualize results through charts.
 
-❗ Problem Statement
+---
+
+## ❗ Problem Statement
+
 Raw poll data is difficult to interpret.
-No clear visualization
-Hard to analyze manually
-Time-consuming to extract insights
 
-💡 Solution
+- No clear visualization  
+- Hard to analyze manually  
+- Time-consuming to extract insights  
+
+---
+
+## 💡 Solution
+
 This project:
-Generates synthetic poll data
-Cleans and processes data
-Calculates response percentages
-Performs region-wise analysis
-Visualizes data using charts
-Generates meaningful insights
 
-🎯 Features
-Data cleaning and preprocessing
-Percentage calculation
-Region-wise comparison
-Bar chart visualization
-Pie chart visualization
-Insight generation
+- Generates synthetic poll data  
+- Cleans and processes data  
+- Calculates response percentages  
+- Performs region-wise analysis  
+- Visualizes data using charts  
+- Generates meaningful insights  
 
-🛠 Tech Stack
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
+---
 
-📂 Project Structure
+## 🎯 Features
+
+- Data cleaning and preprocessing  
+- Percentage calculation  
+- Region-wise comparison  
+- Bar chart visualization  
+- Pie chart visualization  
+- Insight generation  
+
+---
+
+## 🛠 Tech Stack
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## 📂 Project Structure
+
+```
 Poll-Results-Visualizer/
 ├── data/
 │   └── poll_data.csv
@@ -52,45 +73,86 @@ Poll-Results-Visualizer/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
+---
 
-⚙️ Installation
+## ⚙️ Installation
+
+```bash
 git clone https://github.com/needhi-x/Poll-Results-Visualizer.git
 cd Poll-Results-Visualizer
+```
 
+```bash
 python -m venv venv
+```
 
+```bash
 venv\Scripts\activate
+```
 
+```bash
 pip install -r requirements.txt
+```
 
+---
 
-▶️ How to Run
+## ▶️ How to Run
+
+```bash
 python main.py
+```
 
+---
 
-📊 Outputs
-Dataset Preview
-Summary Table
-Region-wise Analysis
-Final Insight
+## 📊 Outputs
 
-📈 Visualizations
-Bar Chart
-Pie Chart
-Region Chart
+### Dataset Preview
+![Dataset](images/dataset_preview.png)
 
-🔍 Insights
-Product B is the most preferred product
-Regional differences exist in responses
-Data visualization improves understanding
+### Summary Table
+![Summary](images/summary_table.png)
 
-🚀 Future Improvements
-Streamlit dashboard
-Real-time data integration
-Google Forms data support
-Advanced analytics
+### Region-wise Analysis
+![Region](images/region_analysis.png)
 
-👩‍💻 Author
-Nidhi Apotikar
- Aspiring Data Analyst
+### Final Insight
+![Insight](images/final_insight.png)
+
+---
+
+## 📈 Visualizations
+
+### Bar Chart
+![Bar](outputs/bar_chart.png)
+
+### Pie Chart
+![Pie](outputs/pie_chart.png)
+
+### Region Chart
+![Region Chart](outputs/region_chart.png)
+
+---
+
+## 🔍 Insights
+
+- Product B is the most preferred product  
+- Regional differences exist in responses  
+- Data visualization improves understanding  
+
+---
+
+## 🚀 Future Improvements
+
+- Streamlit dashboard  
+- Real-time data integration  
+- Google Forms data support  
+- Advanced analytics  
+
+---
+
+## 👩‍💻 Author
+
+Nidhi Apotikar  
+Aspiring Data Analyst
