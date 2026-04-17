@@ -1,10 +1,10 @@
 ## 📊 Poll Results Visualizer
 ## 🚀 Overview
-- The Poll Results Visualizer is a data analytics project that processes poll/survey data and transforms it into meaningful insights using Python.
-- It simulates real-world scenarios where organizations analyze survey responses to understand user preferences, trends, and patterns.
+### The Poll Results Visualizer is a data analytics project that processes poll/survey data and transforms it into meaningful insights using Python.
+### It simulates real-world scenarios where organizations analyze survey responses to understand user preferences, trends, and patterns.
 
 ## ❗ Problem Statement
-- Raw poll or survey data is often difficult to interpret. Without proper analysis, it becomes challenging to extract useful insights for decision-making.
+### Raw poll or survey data is often difficult to interpret. Without proper analysis, it becomes challenging to extract useful insights for decision-making.
 
 ## 💡 Solution
 ### This project:
@@ -31,31 +31,30 @@
 - Seaborn
 
 ## 📂 Project Structure
-'''
 Poll-Results-Visualizer/
-|
-|-- data/
-|   |-- poll_data.csv
-|
-|-- outputs/
-|   |-- bar_chart.png
-|   |-- pie_chart.png
-|   |-- region_chart.png
-|
-|-- images/
-|   |-- dataset_preview.png
-|   |-- summary_table.png
-|   |-- region_analysis.png
-|   |-- final_insight.png
-|
-|-- notebooks/
-|
-|-- src/
-|
-|-- main.py
-|-- requirements.txt
-|-- README.md
-'''
+│
+├── data/
+│   └── poll_data.csv
+│
+├── outputs/
+│   ├── bar_chart.png
+│   ├── pie_chart.png
+│   └── region_chart.png
+│
+├── images/
+│   ├── dataset_preview.png
+│   ├── summary_table.png
+│   ├── region_analysis.png
+│   └── final_insight.png
+│
+├── notebooks/
+│
+├── src/
+│
+├── main.py
+├── requirements.txt
+└── README.md
+
 
 ## ⚙️ Installation & Setup
 1️⃣ Clone Repository
@@ -67,13 +66,13 @@ python -m venv venv
 
 3️⃣ Activate Environment
 - Windows:
-venv\Scripts\activate
+ venv\Scripts\activate
 
 - Mac/Linux:
-source venv/bin/activate
+ source venv/bin/activate
 
 4️⃣ Install Dependencies
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
 
 ### ▶️ How to Run
@@ -151,11 +150,11 @@ Shows regional comparison
 - Academic feedback analysis
 
 ## 🚀 Future Enhancements
-🔹 Interactive dashboard using Streamlit
-🔹 Integration with Google Forms data
-🔹 Real-time data updates
-🔹 Sentiment analysis on text responses
-🔹 Power BI dashboard integration
+### 🔹 Interactive dashboard using Streamlit
+### 🔹 Integration with Google Forms data
+### 🔹 Real-time data updates
+### 🔹 Sentiment analysis on text responses
+### 🔹 Power BI dashboard integration
 
 
 ## 👩‍💻 Author
