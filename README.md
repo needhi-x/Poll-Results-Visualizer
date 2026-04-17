@@ -33,51 +33,51 @@
 ## 📂 Project Structure
 '''
 Poll-Results-Visualizer/
-│
-├── data/                # Generated poll dataset
-│   └── poll_data.csv
-│
-├── outputs/             # Generated charts
-│   ├── bar_chart.png
-│   ├── pie_chart.png
-│   └── region_chart.png
-│
-├── images/              # Screenshots for README
-│   ├── dataset_preview.png
-│   ├── summary_table.png
-│   ├── region_analysis.png
-│   └── final_insight.png
-│
-├── notebooks/           # (Optional Jupyter notebooks)
-│
-├── src/                 # (Optional modular scripts)
-│
-├── main.py              # Main execution file
-├── requirements.txt     # Dependencies
-└── README.md            # Project documentation
+|
+|-- data/
+|   |-- poll_data.csv
+|
+|-- outputs/
+|   |-- bar_chart.png
+|   |-- pie_chart.png
+|   |-- region_chart.png
+|
+|-- images/
+|   |-- dataset_preview.png
+|   |-- summary_table.png
+|   |-- region_analysis.png
+|   |-- final_insight.png
+|
+|-- notebooks/
+|
+|-- src/
+|
+|-- main.py
+|-- requirements.txt
+|-- README.md
 '''
 
 ## ⚙️ Installation & Setup
-- 1️⃣ Clone Repository
+1️⃣ Clone Repository
 git clone https://github.com/needhi-x/Poll-Results-Visualizer.git
 cd Poll-Results-Visualizer
 
-- 2️⃣ Create Virtual Environment
-- python -m venv venv
+2️⃣ Create Virtual Environment
+python -m venv venv
 
-- 3️⃣ Activate Environment
+3️⃣ Activate Environment
 - Windows:
-- venv\Scripts\activate
+venv\Scripts\activate
 
 - Mac/Linux:
-- source venv/bin/activate
+source venv/bin/activate
 
-- 4️⃣ Install Dependencies
-- pip install -r requirements.txt
+4️⃣ Install Dependencies
+pip install -r requirements.txt
 
 
-- ▶️ How to Run
-- python main.py
+### ▶️ How to Run
+ python main.py
 
 
 ## 📊 Features
@@ -90,7 +90,7 @@ cd Poll-Results-Visualizer
 
 ## 📈 Outputs
 ### 🧾 Dataset Preview
-- Displays initial poll dataset with:
+Displays initial poll dataset with:
 - Respondent ID
 - Region
 - Age Group
@@ -99,7 +99,7 @@ cd Poll-Results-Visualizer
 ![datset](images/CSV_file_preview.png)
 
 ### 📊 Summary Table
-- Shows:
+Shows:
 - Count of each response
 - Percentage distribution
 ### 📌 Screenshot:
@@ -107,28 +107,28 @@ cd Poll-Results-Visualizer
 
 
 ### 🌍 Region-wise Analysis
-- Compares product preference across regions
+Compares product preference across regions
 ### 📌 Screenshot:
 ![region](images/region_analysis.png)
 
 ### 🧠 Final Insight
-- Identifies the most preferred product
+Identifies the most preferred product
 ### 📌 Screenshot:
 ![final](images/final_insight.png)
 
 
 ## 📉 Visualizations
 ### 📊 Bar Chart
-- Shows distribution of responses
+Shows distribution of responses
 ![chart](images/bar_chart.png)
 
 ### 🥧 Pie Chart
-- Shows percentage share
+Shows percentage share
 ![pie](images/pie_chart.png)
 
 
 ### 📊 Region-wise Chart
-- Shows regional comparison
+Shows regional comparison
 ![region](images/region_chart.png)
 
 
@@ -151,11 +151,11 @@ cd Poll-Results-Visualizer
 - Academic feedback analysis
 
 ## 🚀 Future Enhancements
-- 🔹 Interactive dashboard using Streamlit
-- 🔹 Integration with Google Forms data
-- 🔹 Real-time data updates
-- 🔹 Sentiment analysis on text responses
-- 🔹 Power BI dashboard integration
+🔹 Interactive dashboard using Streamlit
+🔹 Integration with Google Forms data
+🔹 Real-time data updates
+🔹 Sentiment analysis on text responses
+🔹 Power BI dashboard integration
 
 
 ## 👩‍💻 Author
