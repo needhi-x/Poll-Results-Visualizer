@@ -7,7 +7,7 @@
 - Raw poll or survey data is often difficult to interpret. Without proper analysis, it becomes challenging to extract useful insights for decision-making.
 
 ## 💡 Solution
-- This project:
+### This project:
 - Generates synthetic poll data
 - Cleans and processes the dataset
 - Performs response analysis
@@ -31,17 +31,31 @@
 - Seaborn
 
 ## 📂 Project Structure
+'''
 Poll-Results-Visualizer/
 │
-├── data/              # Generated poll dataset
-├── outputs/           # Charts (bar, pie, region)
-├── images/            # Screenshots for README
-├── notebooks/         # (Optional)
-├── src/               # (Optional)
-├── main.py            # Main script
-├── requirements.txt   # Dependencies
-└── README.md
-
+├── data/                # Generated poll dataset
+│   └── poll_data.csv
+│
+├── outputs/             # Generated charts
+│   ├── bar_chart.png
+│   ├── pie_chart.png
+│   └── region_chart.png
+│
+├── images/              # Screenshots for README
+│   ├── dataset_preview.png
+│   ├── summary_table.png
+│   ├── region_analysis.png
+│   └── final_insight.png
+│
+├── notebooks/           # (Optional Jupyter notebooks)
+│
+├── src/                 # (Optional modular scripts)
+│
+├── main.py              # Main execution file
+├── requirements.txt     # Dependencies
+└── README.md            # Project documentation
+'''
 
 ## ⚙️ Installation & Setup
 - 1️⃣ Clone Repository
@@ -49,21 +63,21 @@ git clone https://github.com/needhi-x/Poll-Results-Visualizer.git
 cd Poll-Results-Visualizer
 
 - 2️⃣ Create Virtual Environment
-python -m venv venv
+- python -m venv venv
 
 - 3️⃣ Activate Environment
 - Windows:
-venv\Scripts\activate
+- venv\Scripts\activate
 
 - Mac/Linux:
-source venv/bin/activate
+- source venv/bin/activate
 
 - 4️⃣ Install Dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 - ▶️ How to Run
-python main.py
+- python main.py
 
 
 ## 📊 Features
